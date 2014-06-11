@@ -1,6 +1,6 @@
 import sys
 
-sentimentData = 'wordwithStrengthtxt.txt'
+sentimentData = 'wordwithStrength.txt'
 twitterData = 'input.txt'
 
 #var will take the user input 
