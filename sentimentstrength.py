@@ -43,6 +43,7 @@ score, based on the sent_dict.
 '''
     for index in range(len(tweets)):
         tweet_word = tweets[index].split()
+        #sent_score is a variable which will take care of word strength / word weightage 
         sent_score = 0
         for word in tweet_word:
             word = word.rstrip('?:!.,;"!@')
