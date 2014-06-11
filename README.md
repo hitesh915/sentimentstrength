@@ -52,10 +52,10 @@ if float(sent_score) > 0:
 
 Output would be as followed. [I'm just entering "i really love that movie", and it will give me score and classification of it]
 
-Enter something: i really love that movie 
-Text: i really love that movie 
-Score: 0.79375
-Classificatio: Highly Positive Sentiment
+    Enter something: i really love that movie 
+    Text: i really love that movie
+    Score: 0.79375
+    Classificatio: Highly Positive Sentiment
 
 
 Hope this project wil help you. 
