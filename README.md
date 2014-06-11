@@ -24,6 +24,40 @@ Different floating point values are assigned to those positive and negative word
 
 For this project we have set threshold to +0.7 and -0.7, above and below that range will be considered as highly positive and highly negative respectively. 
 
+Example: 
+
+if float(sent_score) > 0:
+             print tweets[index]
+             if float(sent_score) > 0.7:
+                 print sent_score
+                 print 'Highly Positive Sentiment'
+             else:
+                print sent_score
+                print 'Positive Sentiment'
+             
+             
+        if float(sent_score) < 0:
+            print tweets[index]
+            if float(sent_score) < -0.7:
+                 print sent_score
+                 print 'Highly Negative Sentiment'
+            else:
+                 print sent_score
+                 print 'Negative Sentiment'
+
+
+        if float(sent_score) == 0:
+            print tweets[index]
+            print 'Neutral Sentiment'
+
+Output would be as followed. [I'm just entering "i really love that movie", and it will give me score and classification of it]
+
+Enter something: i really love that movie 
+Text: i really love that movie 
+Score: 0.79375
+Classificatio: Highly Positive Sentiment
+
+
 Hope this project wil help you. 
 
 Feel free to contact me if you find any problem with the code. Suggestions are highly appreciated. 
